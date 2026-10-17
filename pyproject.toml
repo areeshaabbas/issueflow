@@ -1,0 +1,19 @@
+[project]
+name = "issueflow"
+version = "1.0.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "fastapi==0.143.2",
+  "SQLAlchemy==2.1.4",
+  "psycopg[binary]==3.3.6",
+  "PyJWT==2.15.1",
+  "pwdlib[argon2]==0.3.1",
+  "pydantic-settings==2.16.0",
+  "email-validator==2.3.0",
+]
+
+[tool.vercel]
+entrypoint = "app:app"
+
+[tool.vercel.fastapi.static]
+cdn = true

@@ -1,0 +1,17 @@
+.git
+.local
+.env
+.env.*
+backend/.env
+backend/.env.*
+**/.venv
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+**/*.db
+**/*.db-*
+**/*.log
+**/*.tsbuildinfo
+issueflow
+backend/tests
+backend/postgres_smoke.py
