@@ -10,3 +10,7 @@
 - GitHub workflow results are available from the checks badge in README once this repository is published. Local results do not imply a GitHub run has passed.
 
 See LIVE-VERIFICATION.md for the earlier end-to-end hosted API checks. No production database credentials or QA passwords are published.
+
+## GitHub Actions — 18 October 2026
+
+The [first repository run](https://github.com/areeshaabbas/issueflow/actions/runs/39116715811) passed all three jobs: backend tests and PostgreSQL smoke test, frontend build, and full Docker Compose stack checks through nginx. The disposable containers and test volumes were removed successfully.
